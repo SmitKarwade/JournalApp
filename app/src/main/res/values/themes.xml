@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Jornal_app" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/bluish</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="splash_Screen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_dis</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="light_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/bluish</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+</resources>
